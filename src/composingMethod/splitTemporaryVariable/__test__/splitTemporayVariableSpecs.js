@@ -1,11 +1,9 @@
-import { sandbox } from 'sinon';
-
 import {
   raiseFoo,
   afterSplitTemporaryVariable_raiseFoo
 } from '../splitTemporaryVariable';
 
-const sinon = sandbox.create();
+const sandbox = sinon.createSandbox();
 
 describe('splitTemporaryVariable', () => {
   const rectangle = {
@@ -15,11 +13,11 @@ describe('splitTemporaryVariable', () => {
   let raiseStub;
 
   beforeEach(() => {
-    raiseStub = sinon.stub();
+    raiseStub = sandbox.stub();
   });
 
   afterEach(() => {
-    sinon.restore();
+    sandbox.restore();
   });
 
   context('before split temporary variable', () => {

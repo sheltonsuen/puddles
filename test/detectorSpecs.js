@@ -1,5 +1,3 @@
-import sinon from 'sinon';
-
 const sandbox = sinon.createSandbox();
 
 describe('Detector', () => {

@@ -2,12 +2,11 @@ import {
   analysisPerson,
   afterRefactor_analysisPerson
 } from '../consolidateDuplicatedConditionalFragments';
-import { sandbox } from 'sinon';
 
-const sinon = sandbox.create();
+const sandbox = sinon.createSandbox();
 
 describe('consolidateDuplicatedConditionalFragments', () => {
-  let raiseAnalysisStub = sinon.stub();
+  let raiseAnalysisStub = sandbox.stub();
 
   context('before consolidate duplicated conditional fragments', () => {
     it('should call raiseAnalysis with audlt equals ture when the person has child', () => {
