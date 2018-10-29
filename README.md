@@ -24,3 +24,4 @@ Find the puddles of code.
 
 - [x] Add Parameter
 - [x] Remove parameter
+- [x] Rename Method
