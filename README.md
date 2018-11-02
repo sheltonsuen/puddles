@@ -27,3 +27,4 @@ Find the puddles of code.
 - [x] Rename Method
 - [x] Separate Query from Modifier
 - [x] Parameterize Method
+- [ ] Introduce Parameter Object
