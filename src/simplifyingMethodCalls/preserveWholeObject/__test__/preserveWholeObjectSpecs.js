@@ -15,7 +15,7 @@ describe('introduce parameter object', () => {
       expect(
         getVolumeOfCuboid(
           cuboid.getLength(),
-          cuboid.getHeight(),
+          cuboid.getWidth(),
           cuboid.getHeight()
         )
       ).to.be.equal(6000);
