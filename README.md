@@ -28,4 +28,4 @@ Find the puddles of code.
 - [x] Separate Query from Modifier
 - [x] Parameterize Method
 - [x] Introduce Parameter Object
-- [] Preserve Whole Object
+- [x] Preserve Whole Object
