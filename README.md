@@ -29,3 +29,4 @@ Find the puddles of code.
 - [x] Parameterize Method
 - [x] Introduce Parameter Object
 - [x] Preserve Whole Object
+- [x] Hide Method
