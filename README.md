@@ -30,3 +30,4 @@ Find the puddles of code.
 - [x] Introduce Parameter Object
 - [x] Preserve Whole Object
 - [x] Hide Method
+- [x] Replace Expection with Test
