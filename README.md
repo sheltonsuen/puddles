@@ -31,3 +31,4 @@ Find the puddles of code.
 - [x] Preserve Whole Object
 - [x] Hide Method
 - [x] Replace Expection with Test
+- [x] Remove Setting Method
