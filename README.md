@@ -33,3 +33,4 @@ Find the puddles of code.
 - [x] Replace Expection with Test
 - [x] Remove Setting Method
 - [x] Replace Error Code with Expecton
+- [x] Replace Parameter with Explicit Methods
